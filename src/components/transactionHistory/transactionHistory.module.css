@@ -1,0 +1,21 @@
+th {
+    background-color: rgb(142, 200, 255);
+    height: 40px;
+    color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgb(197, 197, 197);
+}
+
+td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    /* background-color: rgb(151, 151, 151); */
+}
