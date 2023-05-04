@@ -3,7 +3,7 @@ import css from './transactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
   return (
-    <table className={css.TransactionHistory}>
+    <table className={css.transactionHistory}>
       <thead>
         <tr>
           <th>Type</th>

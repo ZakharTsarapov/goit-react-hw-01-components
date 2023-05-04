@@ -8,10 +8,10 @@ import data from './Statistics/data.json';
 import { Profile } from './Profile/Profile';
 import user from './Profile/user.json';
 
+
 export const App = () => {
   return (
     <div className={css.container}>
-      React homework template
       <Profile
         username={user.username}
         tag={user.tag}

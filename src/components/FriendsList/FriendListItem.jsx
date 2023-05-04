@@ -1,12 +1,16 @@
 import PropTypes from 'prop-types';
+import css from './friend.module.css';
+import { HiChatBubbleLeftEllipsis } from 'react-icons/hi2';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
     return (
-        <li class="item">
-            <span class="status">{isOnline}</span>
-            <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>
-        </li>
+      <li className={css.item}>
+        <span className={`${css[isOnline]}`}>
+          <HiChatBubbleLeftEllipsis />
+        </span>
+        <img class="avatar" src={avatar} alt="User avatar" width="48" />
+        <p className={css.name}>{name}</p>
+      </li>
     );
 };
 

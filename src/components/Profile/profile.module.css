@@ -1,0 +1,56 @@
+.profile {
+    margin-bottom: 50px;
+}
+
+.description {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+}
+.name {
+    color: darkblue;
+}
+
+.tag {
+    color: red;
+}
+
+.location {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    color: olivedrab;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    list-style: none;
+}
+
+.element {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.element:nth-child(2n) {
+    border-left: 2px solid rgba(161, 161, 161, 0.39);
+    border-right: 2px solid rgba(161, 161, 161, 0.39);
+}
+
+.label {
+    margin-left: 70px;
+    margin-right: 70px;
+    color: black;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: tomato;
+}

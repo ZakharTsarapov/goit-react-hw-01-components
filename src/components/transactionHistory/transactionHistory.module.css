@@ -16,4 +16,6 @@ td {
 table {
     border-collapse: collapse;
     width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
